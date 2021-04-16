@@ -1,1 +1,1 @@
-# Web_Project
+# WEB TEKNOLOJİLERİ PROJE ÖDEVİ
