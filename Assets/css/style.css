@@ -1,0 +1,51 @@
+/******************* GENERAL*****************/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+padding-bottom: 3rem;    /* Footer height */
+}
+
+/******************* NAVBAR*****************/
+
+.navbar ul li a{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#navbar {
+    background-color: #2693EE !important;
+}
+
+.navbar-nav .nav-item:focus .nav-link { 
+    height: 50px;
+    border-bottom: 2px solid #2693EE; 
+}
+/* alt çizgi kodu burada 
+#navbar-nav #nav-item:hover .nav-link { 
+    height: 50px;
+    border-bottom: 2px solid #2693EE; 
+}
+/******************* CONTENT*****************/
+.content-header h1{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/******************* FOOTER*****************/
+#footer {
+    position: absolute;
+    background-color: rebeccapurple;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;            /* Footer height */
+    padding-top: 0.7rem;
+    text-align: center;
+    color: white;
+}
