@@ -1,3 +1,3 @@
 # WEB TEKNOLOJİLERİ PROJE ÖDEVİ
 
-[Web Sayfası Linki](https://www.google.com "Google's Homepage")
+[Web Sayfası Linki](https://omertayhan.netlify.app/index.html)
