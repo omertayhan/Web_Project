@@ -15,12 +15,12 @@ padding-bottom: 3rem;    /* Footer height */
 /******************* NAVBAR*****************/
 
 .navbar ul li a{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 #navbar {
-    background-color: #2693EE !important;
+    background-color: #FFE4E1 !important;
 }
 
 .navbar-nav .nav-item:focus .nav-link { 
@@ -38,10 +38,14 @@ padding-bottom: 3rem;    /* Footer height */
     text-align: center;
 }
 
+.mt-30{
+    margin-top: 30px;
+}
+
 /******************* FOOTER*****************/
 #footer {
     position: absolute;
-    background-color: rebeccapurple;
+    background-color: #4B0082;
     bottom: 0;
     width: 100%;
     height: 3rem;            /* Footer height */

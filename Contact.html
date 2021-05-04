@@ -21,9 +21,9 @@
       <div id="page-container">
         <div id="content-wrap">
           <!-- all other page content -->
-            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="container">
-                <a class="navbar-brand" href="#"><img src="/Assets/img/logo.png" alt="" ></a>
+                <a class="navbar-brand" href="index.html"><img src="/Assets/img/logo.png" alt="" ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
                 aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -53,14 +53,36 @@
                 </div>
               </div>
             </nav>
-          <div class="container-md">
+          <div class="container-md mt-30">
             
-            <div class="content-header">
-                <h1>HAKKIMDA</h1>
+            <div class="mt-30">
+                <h1>Benimle İletişime Geçin</h1>
             </div>
 
-            <div class="content">
-
+            <div class="content mt-30">
+              <form>
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form4Example1">Adınız ve Soyadınız</label>
+                  <input type="text" id="form4Example1" class="form-control" />
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form4Example2" >Email Adresiniz</label>
+                  <input type="email" id="form4Example2" class="form-control" />
+                </div>
+              
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="form4Example3">Mesajınız</label>
+                  <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                </div>
+              
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">Gönder</button>
+                <button type="submit" class="btn btn-danger btn-block mb-4">Temizle</button>
+              </form>
             </div>
 
           </div>
