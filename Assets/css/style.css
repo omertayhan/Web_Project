@@ -23,15 +23,14 @@ padding-bottom: 3rem;    /* Footer height */
     background-color: #FFE4E1 !important;
 }
 
-.navbar-nav .nav-item:focus .nav-link { 
-    height: 50px;
-    border-bottom: 2px solid #2693EE; 
-}
-/* alt çizgi kodu burada 
-#navbar-nav #nav-item:hover .nav-link { 
-    height: 50px;
-    border-bottom: 2px solid #2693EE; 
-}
+.nav-link {
+    border-bottom: 2px solid transparent;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid #764A19;
+  }
+
 /******************* CONTENT*****************/
 .content-header h1{
     margin: 1rem 0;
@@ -42,14 +41,106 @@ padding-bottom: 3rem;    /* Footer height */
     margin-top: 30px;
 }
 
+/*go to top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+  
+#myBtn:hover {
+    background-color: rgb(228, 95, 95);
+}
+
 /******************* FOOTER*****************/
 #footer {
     position: absolute;
-    background-color: #4B0082;
+    background-color: #3f0404;
     bottom: 0;
     width: 100%;
     height: 3rem;            /* Footer height */
     padding-top: 0.7rem;
     text-align: center;
     color: white;
+}
+
+/*Özgeçmiş*/
+
+.jumbotron{
+    background-color: #dcdcdc;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+/*Şehrim*/
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+.carousel-inner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.slide{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+#h1{
+    margin: 1.5rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: #764A19;
+    background: -webkit-linear-gradient(rgb(202, 58, 58), #764A19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.foto{
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.uzun{
+    margin-top: 6rem !important;
+}
+
+.orta{
+    margin-top: 3rem !important;
+}
+
+.row{
+    margin: 1.2rem;
+}
+.lületasi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
