@@ -1,3 +1,10 @@
+<?php
+alert("Hoşgeldiniz b191210012");
+
+function alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +22,7 @@
 
 		<script src="https://kit.fontawesome.com/fa2f2b7293.js" crossorigin="anonymous"></script>
 
+    
 </head>
 
 
