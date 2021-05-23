@@ -1,4 +1,4 @@
 # WEB TEKNOLOJİLERİ PROJE ÖDEVİ
 
-[Web Sayfası Linki](https://omertayhan.netlify.app/index.html)
+[Web Sayfası Linki](https://webodevim.netlify.app)
 
