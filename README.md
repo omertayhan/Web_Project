@@ -1,6 +1,12 @@
 # WEB TEKNOLOJİLERİ PROJE ÖDEVİ / Kişisel Website
 [Web Sayfası Linki](https://webodevim.netlify.app)
 
+## Installation
+
+```
+git clone https://github.com/omertayhan/Web_Project.git
+```
+
 ## index.php 
 
 PHP kullanılarak login işlemlerinin gerçekleştirildiği kısım 
